@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Old';
+    src: url('fonts/OldLondon.ttf') format('truetype'),
+        url('fonts/Olondon_.otf') format('opentype');
+        font-weight: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Old', Times, serif;
+    font-size: 4em;
+    font-weight: normal;
+    margin: 10px 0px 10px 15px;
+}
+
+p {
+    margin: 0px 15px 0px 15px;
+    text-align: justify;
+}

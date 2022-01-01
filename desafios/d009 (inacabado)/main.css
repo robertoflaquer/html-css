@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 38, 38);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: arial;
+    letter-spacing: 1px;
+}
+
+a {
+    margin: 2px;
+}
+
+nav {
+    position: relative;
+    margin-top: 150px;
+}
+
+.video1 {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+}
+.video2 {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}
+.video3 {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+}
+.video4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
