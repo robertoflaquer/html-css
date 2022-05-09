@@ -45,16 +45,16 @@ a:hover {
 
 /*SECTION*/
 
-section p {
+section {
     font: var(--fonte3);
     line-height: 2;
 }
 
-.sec-txt {
+.texto {
     padding: 62.5px 0px 62.5px 30px;
 }
 
-.sec-txt > p {
+.texto > p {
     padding-bottom: 95.2px;
 }
 
@@ -65,19 +65,20 @@ section p {
     background-position: right center;
 }
 
-.sec-parallax {
+.parallax {
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 2px 1px 20px rgba(0, 0, 0, 0.74);
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.74);
     color: white;
     padding: 62.5px 0px 62.5px 30px;
 }
 
-.sec-parallax p {
+.parallax p {
     display: inline-block;
     width: auto;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
+    text-shadow: 1px 1px 1px black;
 }
 
 #parallax2 {
